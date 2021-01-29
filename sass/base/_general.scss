@@ -1,0 +1,33 @@
+.container {
+  width: rem(1410);
+  margin: 0 auto;
+
+  @media screen and (max-width: 1400px)  {
+    width: 83.33%;
+  }
+  @media screen and (max-width: 1200px) {
+    width: 90%;
+  }
+  @media screen and (max-width: 1024px)  {
+    width: 90%;
+  }
+  @media screen and (max-width: 991px) {
+    width: calc(100% - #{rem(90)});
+  }
+  @media screen and (max-width: 768px)  {
+    width: calc(100% - #{rem(52)});
+  }
+}
+
+.blurred {
+  filter: blur(4px);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  outline: none;
+  border: none;
+  box-shadow: none;
+}

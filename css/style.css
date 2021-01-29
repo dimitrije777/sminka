@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
+*, *:before, *:after {
+  box-sizing: border-box; }
+
+html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  text-size-adjust: none; }
+
+footer, header, nav, section, main {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+input {
+  -webkit-appearance: none;
+  border-radius: 0; }
+
+.container {
+  width: rem(1410);
+  margin: 0 auto; }
+  @media screen and (max-width: 1400px) {
+    .container {
+      width: 83.33%; } }
+  @media screen and (max-width: 1200px) {
+    .container {
+      width: 90%; } }
+  @media screen and (max-width: 1024px) {
+    .container {
+      width: 90%; } }
+  @media screen and (max-width: 991px) {
+    .container {
+      width: calc(100% - rem(90)); } }
+  @media screen and (max-width: 768px) {
+    .container {
+      width: calc(100% - rem(52)); } }
+
+.blurred {
+  filter: blur(4px); }
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  outline: none;
+  border: none;
+  box-shadow: none; }
+
+html {
+  font-size: 16px; }
+
+.header {
+  position: relative; }
+  .header__inner {
+    position: relative;
+    width: 100%;
+    padding: 3.063rem 2.125rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    align-items: center; }
+  .header__nav {
+    position: relative;
+    margin-right: 1.5rem; }
+  .header__nav-wrapper {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .header__nav-wrapper a {
+      margin-left: 3.31rem;
+      text-decoration: none;
+      color: #fff;
+      font-size: 1rem; }
+
+/*# sourceMappingURL=style.css.map */

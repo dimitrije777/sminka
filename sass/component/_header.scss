@@ -1,0 +1,30 @@
+.header{
+    position: relative;
+
+    &__inner{
+            position: relative;
+            width: 100%;
+            padding:3.063rem 2.125rem;
+            display: flex;
+            justify-content: space-between;
+            background-color: black;
+            align-items: center;
+    }
+    &__nav{
+         position: relative;
+         margin-right: 1.5rem;
+    }
+    &__nav-wrapper{
+        list-style:none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        a{
+            margin-left: 3.31rem;
+            text-decoration: none;
+            color: #fff;
+            font-size: 1rem;
+        }
+    }
+    
+}
